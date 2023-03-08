@@ -1,2 +1,3 @@
-#!/bin/bash
-cd ..
+echo "Listing files in /boot directory:"
+cd /boot
+ls -l
