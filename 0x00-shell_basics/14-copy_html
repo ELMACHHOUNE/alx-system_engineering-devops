@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -auv --exclude='*.txt' --exclude='*.sh' --exclude='*.md' --exclude='*.py' --exclude='*.c' --exclude='*.h' --exclude='*.o' --exclude='*.json' --include='*.html' --exclude='*' ./ ../
+rsync
