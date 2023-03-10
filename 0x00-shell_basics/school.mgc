@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-=======
-0	string	SCHOOL	School data file
-!:mime School
->>>>>>> 81d524166a133391f6b181dde39e402d8633c4ad
+$ file -m school.mgc *
