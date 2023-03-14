@@ -1,2 +1,2 @@
-#!/bin/sh
-WATER="$WATER" STIR="$STIR" echo "ibase=36;obase=36;$(echo "$WATER+ $STIR" | tr 'waterstir.' '0123456789abcdefghijklmnopqrstuvwxyz') " | bc | tr '0123456789abcdefghijklmnopqrstuvwxyz' 'bestchol.'
+#!/bin/bash
+printf '%o\n' $(( 5#$( echo $WATER | tr water 01234) + 5#$( echo $STIR | tr stir. 01234 ) )) | tr 01234567 behlnort
